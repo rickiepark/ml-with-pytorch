@@ -1,32 +1,33 @@
-##  Chapter 13: Going Deeper – The Mechanics of PyTorch
+## 13장 - 파이토치 구조 자세히 알아보기
 
 
-### Chapter Outline
+### 목차
 
-- The key features of 
-- PyTorch's computation graphs
-  - Understanding computation graphs
-  - Creating a graph in PyTorch
-- PyTorch tensor objects for storing and updating model parameters
-- Computing gradients via automatic differentiation
-  - Computing the gradients of the loss with respect to trainable variables
-  - Understanding automatic differentiation
-  - Adversarial examples
-- Simplifying implementations of common architectures via the torch.nn module
-  - Implementing models based on nn.Sequential
-  - Choosing a loss function
-  - Solving an XOR classification problem
-  - Making model building more flexible with nn.Module
-  - Writing custom layers in PyTorch
-- Project one - predicting the fuel efficiency of a car
-  - Working with feature columns
-  - Training a DNN regression model
-- Project two - classifying MNIST handwritten digits
-- Higher-level PyTorch APIs: a short introduction to PyTorch Lightning
-  - Setting up the PyTorch Lightning model
-  - Setting up the data loaders for Lightning
-  - Training the model using the PyTorch Lightning Trainer class
-  - Evaluating the model using TensorBoard
-- Summary
+- 파이토치의 주요 특징
+- 파이토치의 계산 그래프
+  - 계산 그래프 이해
+  - 파이토치로 그래프 만들기
+- 모델 파라미터를 저장하고 업데이트하기 위한 파이토치 텐서 객체
+- 자동 미분으로 그레이디언트 계산하기
+  - 훈련 가능한 변수에 대한 손실의 그레이디언트 계산
+  - 자동 미분 이해하기
+  - 적대 샘플
+- `torch.nn` 모듈을 사용해 일반적인 아키텍처 구현하기
+  - `nn.Sequential` 기반의 모델 구현하기
+  - 손실 함수 선택하기
+  - XOR 분류 문제 풀어 보기
+  - `nn.Module`로 유연성이 높은 모델 만들기
+  - 파이토치에서 사용자 정의 층 만들기
+- 프로젝트 1 - 자동차 연비 예측하기
+  - 특성 열 사용하기
+  - DNN 회귀 모델 훈련하기
+- 프로젝트 2 - MNIST 손글씨 숫자 분류하기
+- 고수준 파이토치 API: 파이토치 라이트닝 소개
+  - 파이토치 라이트닝 설치
+  - 파이토치 라이트닝 모델 준비하기
+  - 라이트닝을 위한 데이터 로더 준비하기
+  - 라이트닝 `Trainer` 클래스를 사용해 모델 훈련하기
+  - 텐서보드로 모델 평가하기
+- 요약
 
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
