@@ -1,33 +1,32 @@
 
+##  15장 - 순환 신경망으로 순차 데이터 모델링
 
 
-##  Chapter 15: Modeling Sequential Data Using Recurrent Neural Networks
+### 목차
 
+- 순차 데이터 소개
+  - 순차 데이터 모델링: 순서를 고려한다
+  - 순차 데이터 vs 시계열 데이터
+  - 시퀀스 표현
+  - 시퀀스 모델링의 종류
+- 시퀀스 모델링을 위한 RNN
+  - RNN의 반복 구조 이해
+  - RNN의 활성화 출력 계산
+  - 은닉 순환과 출력 순환
+  - 긴 시퀀스 학습의 어려움
+  - LSTM 셀
+- 파이토치로 시퀀스 모델링을 위한 RNN 구현
+  - 첫 번째 프로젝트: IMDb 영화 리뷰의 감성 분석
+    - 영화 리뷰 데이터 준비
+    - 문장 인코딩을 위한 임베딩 층
+    - RNN 모델 만들기
+    - 감성 분석 작업을 위한 RNN 모델 만들기
+      - 양방향 RNN
+  - 두 번째 프로젝트: 텐서플로로 글자 단위 언어 모델 구현
+    - 데이터셋 전처리
+    - 문자 수준의 RNN 모델 만들기
+    - 평가 단계: 새로운 텍스트 생성
+- 요약
 
-### Chapter Outline
-
-- Introducing sequential data
-  - Modeling sequential data—order matters
-  - Representing sequences
-  - The different categories of sequence modeling
-- RNNs for modeling sequences
-  - Understanding the RNN looping mechanism
-  - Computing activations in an RNN
-  - Hidden-recurrence versus output-recurrence
-  - The challenges of learning long-range interactions
-  - Long short-term memory cells
-- Implementing RNNs for sequence modeling in PyTorch
-  - Project one: predicting the sentiment of IMDb movie reviews
-    - Preparing the movie review data
-    - Embedding layers for sentence encoding
-    - Building an RNN model
-    - Building an RNN model for the sentiment analysis task
-      - More on the bidirectional RNN
-  - Project two: character-level language modeling in PyTorch
-    - Preprocessing the dataset
-    - Building a character-level RNN model
-    - Evaluation phase: generating new text passages
-- Summary
-
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
 
