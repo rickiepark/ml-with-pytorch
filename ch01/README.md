@@ -75,30 +75,27 @@ pip install numpy==1.21.2 scipy==1.7.0 scikit-learn==1.0 matplotlib==3.4.3 panda
 
 ## 주피터 노트북
 
-Some readers were wondering about the .ipynb of the code files contained in this repository -- these files are Jupyter notebooks (formerly known as IPython notebooks).
+이 저장소에 있는 .ipynb 파일은 예제 코드를 담고 있는 주피터 노트북(Jupyter notebook)입니다.
 
-Compared to regular .py scripts, Jupyter notebooks allow us to have everything in one place:
+일반적인 .py 스크립트와 달리 주피터 노트북은 여러 가지 내용을 한 파일에 담을 수 있습니다.
 
-- Our code.
-- The results from executing the code.
-- Plots of our data.
-- Documentation supporting the handy Markdown and LaTeX syntax for typing and rendering mathematical notation.
+- 코드
+- 코드 실행 결과
+- 그래프
+- 막다운(Markdown)과 수식 표현을 위한 레이텍(LaTeX)을 지원하는 문서
 
-Please see the https://jupyter.org/install website for the latest installation instructions.
+최신 버전 설치에 대해서는 https://jupyter.org/install 웹사이트를 참고하세요.
 
-Two official applications can open Jupyter notebooks: the original Jupyter Notebook app and the newer Jupyter Lab app (and VS Code has Jupyter notebook support, too). The notebooks provided in this repository are compatible with both.
+주피터 노트북을 열 수 있는 공식 애플리케이션은 원래 주피터 노트북과 새로운 주피터 랩(Lab) 두 가지 입니다(VS Code도 주피터 노트북을 지원합니다). 이 저장소에 있는 노트북은 두 애플리케이션에서 모두 열 수 있습니다.
 
-We recommend installing Jupyter Lab via
-Jupyter Lab can be installed via 
+다음 명령으로 주피터 랩을 설치할 수 있습니다.
 
 ```bash
 conda install -c conda-forge jupyterlab
 ```
 
-or 
+또는
 
 ```bash
 pip install jupyterlab
 ```
-
-Finally, please note that the Jupyter notebooks provided in this repository are optional, although we highly recommend them. All code examples found in this book are also available via .py script files (which were converted from the Jupyter notebooks to ensure that they contain the identical code.)
