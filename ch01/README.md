@@ -1,5 +1,6 @@
 ## 1장: 컴퓨터는 데이터에서 배운다
 
+**번역서 저장소에 있는 주피터 노트북 대부분은 파이썬 환경을 준비할 필요가 없으며 구글 코랩(Colab)에서 바로 실행할 수 있습니다**
 
 ### 기존 콘다(Conda) 사용자: 새로운 콘다 환경 만들기 (선택사항)
 
@@ -52,7 +53,7 @@ source pyml-book/bin/activate
 pip install numpy==1.21.2 scipy==1.7.0 scikit-learn==1.0 matplotlib==3.4.3 pandas==1.3.2
 ```
 
-## 파이썬 환경 확인하기
+### 파이썬 환경 확인하기
 
 책의 예제를 위해 적절히 파이썬 환경이 구축되었는지 테스트하기 위해 이 저장소의 최상단 폴더에 있는 [`../python_environment_check.py`](../python_environment_check.py) 스크립트를 실행하세요.
 
@@ -73,7 +74,7 @@ pip install numpy==1.21.2 scipy==1.7.0 scikit-learn==1.0 matplotlib==3.4.3 panda
 [OK] pandas 1.3.2
 ```
 
-## 주피터 노트북
+### 주피터 노트북
 
 이 저장소에 있는 .ipynb 파일은 예제 코드를 담고 있는 주피터 노트북(Jupyter notebook)입니다.
 
