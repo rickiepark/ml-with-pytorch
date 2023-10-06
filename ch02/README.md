@@ -1,21 +1,19 @@
-##  Chapter 2: Training Simple Machine Learning Algorithms for Classification
+## 2장 - 간단한 분류 알고리즘 훈련
 
-### Chapter Outline
+### 목차
 
-- Artificial neurons – a brief glimpse into the early history of machine learning
-  - The formal definition of an artificial neuron
-  - The perceptron learning rule
-- Implementing a perceptron learning algorithm in Python 
-  - An object-oriented perceptron API
-  - Training a perceptron model on the Iris dataset
-- Adaptive linear neurons and the convergence of learning
-  - Minimizing cost functions with gradient descent
-  - Implementing an Adaptive Linear Neuron in Python
-  - Improving gradient descent through feature scaling
-  - Large scale machine learning and stochastic gradient descent
-- Summary
+- 인공 뉴런: 초기 머신 러닝의 간단한 역사
+    - 인공 뉴런의 수학적 정의
+    - 퍼셉트론 학습 규칙
+- 파이썬으로 퍼셉트론 학습 알고리즘 구현
+    - 객체 지향 퍼셉트론 API
+    - 붓꽃 데이터셋에서 퍼셉트론 훈련
+- 적응형 선형 뉴런과 학습의 수렴
+    - 경사 하강법으로 비용 함수 최소화
+    - 파이썬으로 아달린 구현
+    - 특성 스케일을 조정하여 경사 하강법 결과 향상
+    - 대규모 머신 러닝과 확률적 경사 하강법
+- 요약
 
 
-
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
-
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
