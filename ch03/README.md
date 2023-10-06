@@ -1,28 +1,27 @@
-##  Chapter 3: A Tour of Machine Learning Classifiers Using scikit-learn
+##  3장 - 사이킷런을 타고 떠나는 머신 러닝 분류 모델 투어
 
-### Chapter Outline
+### 목차
 
-- Choosing a classification algorithm
-- First steps with scikit-learn -- training a perceptron
-- Modeling class probabilities via logistic regression
-  - Logistic regression intuition and conditional probabilities
-  - Learning the weights of the logistic cost function
-  - Converting an Adaline implementation into an algorithm for logistic regression
-  - Training a logistic regression model with scikit-learn
-  - Tackling overfitting via regularization
-- Maximum margin classification with support vector machines
-  - Maximum margin intuition
-  - Dealing with a nonlinearly separable case using slack variables
-  - Alternative implementations in scikit-learn
-- Solving nonlinear problems using a kernel SVM
-  - Kernel methods for linearly inseparable data
-  - Using the kernel trick to find separating hyperplanes in high-dimensional space 
-- Decision tree learning
-  - Maximizing information gain – getting the most bang for your buck
-  - Building a decision tree
-  - Combining multiple decision trees via random forests
-- K-nearest neighbors – a lazy learning algorithm
-- Summary
+- 분류 알고리즘 선택
+- 사이킷런 첫걸음: 퍼셉트론 훈련
+- 로지스틱 회귀를 사용한 클래스 확률 모델링
+  - 로지스틱 회귀의 이해와 조건부 확률
+  - 로지스틱 손실 함수의 가중치 학습
+  - 아달린 구현을 로지스틱 회귀 알고리즘으로 변경
+  - 사이킷런을 사용하여 로지스틱 회귀 모델 훈련
+  - 규제를 사용하여 과대적합 피하기
+- 서포트 벡터 머신을 사용한 최대 마진 분류
+  - 최대 마진
+  - 슬랙 변수를 사용하여 비선형 분류 문제 다루기
+  - 사이킷런의 다른 구현
+- 커널 SVM을 사용하여 비선형 문제 풀기
+  - 선형적으로 구분되지 않는 데이터를 위한 커널 방법
+  - 커널 기법을 사용하여 고차원 공간에서 분할 초평면 찾기
+- 결정 트리 학습
+  - 정보 이득 최대화: 자원을 최대로 활용
+  - 결정 트리 만들기
+  - 랜덤 포레스트로 여러 개의 결정 트리 연결
+- k-최근접 이웃: 게으른 학습 알고리즘
+- 요약
 
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
-
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
