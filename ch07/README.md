@@ -1,25 +1,24 @@
-##  Chapter 7: Combining Different Models for Ensemble Learning
+## 7장 - 다양한 모델을 결합한 앙상블 학습
 
-### Chapter Outline
+### 목차
 
-- Learning with ensembles
-- Combining classifiers via majority vote
-  - Implementing a simple majority vote classifier
-  - Using the majority voting principle to make predictions
-  - Evaluating and tuning the ensemble classifier
-- Bagging – building an ensemble of classifiers from bootstrap samples
-  - Bagging in a nutshell
-  - Applying bagging to classify samples in the Wine dataset
-- Leveraging weak learners via adaptive boosting
-  - How boosting works
-  - Applying AdaBoost using scikit-learn
-- Gradient boosting -- training an ensemble based on loss gradients
-  - Comparing AdaBoost with gradient boosting
-  - Outlining the general gradient boosting algorithm
-  - Explaining the gradient boosting algorithm for classification
-  - Illustrating gradient boosting for classification
-  - Using XGBoost
-- Summary
+- 앙상블 학습
+- 다수결 투표를 사용한 분류 앙상블
+    - 간단한 다수결 투표 분류기 구현
+    - 다수결 투표 방식을 사용하여 예측 만들기
+    - 앙상블 분류기의 평가와 튜닝
+- 배깅: 부트스트랩 샘플링을 통한 분류 앙상블
+    - 배깅 알고리즘의 작동 방식
+    - 배깅으로 Wine 데이터셋의 샘플 분류
+- 약한 학습기를 이용한 에이다부스트
+    - 부스팅 작동 원리
+    - 사이킷런에서 에이다부스트 사용
+- 그레이디언트 부스팅 – 손실 그레이디언트 기반의 앙상블 훈련
+    - 에이다부스트와 그레이디언트 부스팅 비교
+    - 그레이디언트 부스팅 알고리즘 소개
+    - 분류를 위한 그레이디언트 부스팅 알고리즘
+    - 그레이디언트 부스팅 분류 예제
+    - XGBoost 사용하기
+- 요약
 
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
-
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
