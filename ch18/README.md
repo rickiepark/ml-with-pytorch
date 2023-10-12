@@ -1,31 +1,27 @@
-##  Chapter 18: Graph Neural Networks for Capturing Dependencies in Graph Structured Data
+## 18장: 그래프 구조 데이터의 의존성 감지를 위한 그래프 신경망
 
+### 목차
 
-### Chapter Outline
+- 그래프 데이터 소개
+  - 비유향 그래프
+  - 유향 그래프
+  - 레이블 그래프
+  - 분자를 그래프로 표현하기
+- 그래프 합성곱 이해
+  - 그래프 합성곱의 사용 동기
+  - 기본 그래프 합성곱 구현
+- 파이토치에서 GNN을 밑바닥부터 구현하기
+  - NodeNetwork 모델 정의하기
+  - NodeNetwork의 그래프 합성곱 층 만들기
+  - 다양한 그래프 크기를 처리하기 위해 전역 풀링 층 추가하기
+  - 데이터로더 준비
+  - 노드 네트워크를 사용하여 예측하기
+- 파이토치 지오메트릭 라이브러리를 사용하여 GNN 구현하기
+- 기타 GNN 층 및 최근 개발 사항
+  - 스펙트럼 그래프 합성곱
+  - 풀링
+  - 정규화
+  - 그외 고급 그래프 신경망
+- 요약
 
-- Introduction to graph data
-  - Undirected graphs
-  - Directed graphs
-  - Labeled graphs
-  - Representing molecules as graphs
-- Understanding graph convolutions
-  - The motivation behind using graph convolutions
-  - Implementing a basic graph convolution
-- Implementing a GNN in PyTorch from scratch
-  - Defining the NodeNetwork model
-  - Coding the NodeNetwork’s graph convolution layer
-  - Adding a global pooling layer to deal with varying graph sizes
-  - Preparing the DataLoader
-  - Using the NodeNetwork to make predictions
-- Implementing a GNN using the PyTorch Geometric library
-- Other GNN layers and recent developments
-  - Spectral graph convolutions
-  - Pooling
-  - Normalization
-  - Pointers to advanced graph neural network literature
-- Summary
-
-
-
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
-
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
