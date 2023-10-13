@@ -70,7 +70,7 @@ class DQNAgent:
             return np.random.choice(self.action_size)
         with torch.no_grad():
             q_values = self.model(torch.tensor(state, dtype=torch.float32))[0]
-        return torch.argmax(q_values).item()  # returns action
+        return torch.argmax(q_values).item()  # 행동 반환
 
     def _learn(self, batch_samples):
         batch_states, batch_targets = [], []
@@ -121,7 +121,7 @@ def plot_learning_history(history):
     plt.show()
 
 
-# General settings
+# 일반 설정
 EPISODES = 200
 batch_size = 32
 init_replay_memory_size = 500
@@ -132,7 +132,7 @@ if __name__ == '__main__':
     state = env.reset()
     state = np.reshape(state, [1, agent.state_size])
 
-    # Filling up the replay-memory
+    # 재생 메모리 채우기
     for i in range(init_replay_memory_size):
         action = agent.choose_action(state)
         next_state, reward, done, _ = env.step(action)
@@ -162,7 +162,7 @@ if __name__ == '__main__':
                 env.render()
             if done:
                 total_rewards.append(i)
-                print(f'Episode: {e}/{EPISODES}, Total reward: {i}')
+                print(f'에피소드: {e}/{EPISODES}, 총 보상: {i}')
                 break
             loss = agent.replay(batch_size)
             losses.append(loss)

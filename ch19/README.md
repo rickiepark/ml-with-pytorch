@@ -1,51 +1,49 @@
 
-##  Chapter 19: Reinforcement Learning for Decision Making in Complex Environments
+## 19장 - 강화 학습으로 복잡한 환경에서 의사 결정하기
 
 
-### Chapter Outline
+### 목차
 
-- Introduction: learning from experience
-  - Understanding reinforcement learning
-  - Defining the agent-environment interface of a reinforcement learning system
-  - The theoretical foundations of RL
-    - Markov decision processes
-    - The mathematical formulation of Markov decision processes
-    - Visualization of a Markov process
-    - Episodic versus continuing tasks
-  - RL terminology: return, policy, and value function
-    - The return
-    - Policy
-    - Value function
-  - Dynamic programming using the Bellman equation
-- Reinforcement learning algorithms
-  - Dynamic programming
-    - Policy evaluation – predicting the value function with dynamic programming
-    - Improving the policy using the estimated value function
-    - Policy iteration
-    - Value iteration
-  - Reinforcement learning with Monte Carlo
-    - State-value function estimation using MC
-    - Action-value function estimation using MC
-    - Finding an optimal policy using MC control
-    - Policy improvement – computing the greedy policy from the action-value function
-  - Temporal difference learning
-    - TD prediction
-    - On-policy TD control (SARSA)
-    - Off-policy TD control (Q-learning)
-- Implementing our first RL algorithm
-  - Introducing the OpenAI Gym toolkit
-    - Working with the existing environments in OpenAI Gym
-  - A grid world example
-    - Implementing the grid world environment in OpenAI Gym
-  - Solving the grid world problem with Q-learning
-    - Implementing the Q-learning algorithm
-- A glance at deep Q-learning
-  - Training a DQN model according to the Q-learning algorithm
-    - Replay memory
-    - Determining the target values for computing the loss
-  - Implementing a deep Q-learning algorithm
-- Chapter and book summary
+- 경험에서 배운다
+    - 강화 학습 이해
+    - 강화 학습 시스템의 에이전트-환경 인터페이스 정의하기
+- 강화 학습의 기초 이론
+    - 마르코프 결정 과정
+    - 마르코프 결정 과정의 수학 공식
+        - 마르코프 과정 시각화
+        - 에피소드 작업 대 연속적인 작업
+    - 강화 학습 용어: 대가, 정책, 가치 함수
+        - 대가
+        - 정책
+        - 가치 함수
+    - 벨먼 방정식을 사용한 동적 계획법
+- 강화 학습 알고리즘
+    - 동적 계획법
+        - 정책 평가 - 동적 계획법으로 가치 함수 예측하기
+        - 추정된 가치 함수로 정책 향상시키기
+        - 정책 반복
+        - 가치 반복
+    - 몬테 카를로를 사용한 강화 학습
+        - MC를 사용한 상태-가치 함수 추정
+        - MC를 사용한 행동-가치 함수 추정
+        - MC 제어를 사용해 최적의 정책 찾기
+        - 정책 향상 - 행동-가치 함수로부터 그리디 정책 계산하기
+    - 시간차 학습
+        - TD 예측
+        - 온-폴리시 TD 제어 (SARSA)
+        - 오프-폴리시 TD 제어 (Q-러닝)
+- 첫 번째 강화 학습 알고리즘 구현하기
+    - OpenAI 짐 툴킷 소개
+        - OpenAI 짐에 포함된 환경 사용하기
+        - 그리드 월드
+        - OpenAI 짐에서 그리드 월드 환경 구현하기
+    - Q-러닝으로 그리드 월드 문제 풀기
+        - Q-러닝 알고리즘 구현하기
+    - 심층 Q-러닝
+        - Q-러닝 알고리즘에 따라 DQN 모델 훈련하기
+            - 재생 메모리
+            - 손실 계산을 위해 타깃 가치 결정하기
+    - 심층 Q-러닝 알고리즘 구현
+- 전체 요약
 
-**Please refer to the [README.md](../ch01/README.md) file in [`../ch01`](../ch01) for more information about running the code examples.**
-
-
+**코드를 실행하기 위한 자세한 정보는 [`../ch01`](../ch01)에 있는 [README.md](../ch01/README.md) 파일을 참고하세요.**
